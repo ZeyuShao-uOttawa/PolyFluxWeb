@@ -1,20 +1,20 @@
 body {
   background-image: url(../Assets/back1.png);
   background-repeat: no-repeat;
-  background-size: 96vmax;
-  background-position: 5vmax -2.5vmax;
+  background-size: 96vw;
+  background-position: 5vw -2.5vw;
   overflow-x: hidden;
 }
 
 img.logo {
   display: inline;
   text-align: center;
-  width: 5vmax;
+  width: 5vw;
 }
 
 h5.logo-text {
   display: inline;
-  font-size: 3.5vmax;
+  font-size: 3.5vw;
   font-family: bebas-neue-by-fontfabric, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -23,7 +23,7 @@ h5.logo-text {
 h3.wel {
   margin-bottom: 0;
   padding-bottom: 0;
-  font-size: 2vmax;
+  font-size: 2vw;
   font-family: bebas-neue-by-fontfabric, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -32,14 +32,14 @@ h3.wel {
 h1.wel {
   margin-top: 0;
   padding-top: 0;
-  font-size: 6vmax;
+  font-size: 6vw;
   font-family: bebas-neue-by-fontfabric, sans-serif;
   font-weight: 300;
   font-style: normal;
 }
 
 button {
-  font-size: 2.4vmax;
+  font-size: 2.4vw;
   font-family: bebas-neue-by-fontfabric, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -47,40 +47,40 @@ button {
   background-color: #3DB9FC;
   text-align: center;
   border: none;
-  padding: 0.30vmax;
-  padding-right: 3vmax;
-  padding-left: 3vmax;
-  border-radius: 3vmax;
+  padding: 0.30vw;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  border-radius: 3vw;
   cursor: pointer;
 }
 
 img.bot {
-  margin-top: 10vmax;
-  width: 76vmax;
+  margin-top: 10vw;
+  width: 76vw;
 }
 
 img.bot-ring {
-  margin-left: 24vmax;
-  margin-top: -9.5vmax;
-  width: 29vmax;
+  margin-left: 24vw;
+  margin-top: -9.5vw;
+  width: 29vw;
 }
 
 #logo {
-  padding: 3vmax;
-  padding-left: 5.5vmax;
+  padding: 3vw;
+  padding-left: 5.5vw;
 }
 
 #welcome {
   position: absolute;
-  padding: 2vmax;
-  margin-left: 10vmax;
+  padding: 2vw;
+  margin-left: 10vw;
 }
 
 #mess-bot {
-  height: 39vmax;
+  height: 39vw;
 }
 
 #bot {
   position: relative;
-  margin-left: 34vmax;
+  margin-left: 34vw;
 }
