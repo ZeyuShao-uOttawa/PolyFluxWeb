@@ -1,41 +1,65 @@
 body {
-  background-image: url("../Assets/logo.png");
-  background-size: 110em;
+  background-image: url(../Assets/back1.png);
   background-repeat: no-repeat;
-  background-position: 30em -41em;
-}
-
-h1.background-text {
-  display: block;
-  font-size: 37em;
-  font-family: bebas-neue-by-fontfabric, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  margin-left: 9.5%;
-  margin-top: -4%;
-  opacity: 3%;
-}
-
-div.container {
-  align-items: left;
+  background-size: 100vw;
+  background-position: 0vw -2.5vw;
+  overflow-x: hidden;
 }
 
 img.logo {
+  display: inline;
   text-align: center;
-  display: inline-block;
-  width: 1.5em;
+  width: 5vw;
 }
 
 h5.logo-text {
-  display: inline-block;
-  font-size: 3em;
+  display: inline;
+  font-size: 3.5vw;
   font-family: bebas-neue-by-fontfabric, sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
 }
 
+h3.wel {
+  font-size: 2vw;
+  font-family: bebas-neue-by-fontfabric, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1.wel {
+  font-size: 5vw;
+  font-family: bebas-neue-by-fontfabric, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+button {
+  font-size: 2.4vw;
+  font-family: bebas-neue-by-fontfabric, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+  background-color: #3DB9FC;
+  text-align: center;
+  border: none;
+  padding: 0.30vw;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  border-radius: 3vw;
+  cursor: pointer;
+}
+
 #logo {
-  margin-top: 2.5%;
-  margin-left: 5%;
-  width: 80%;
+  padding: 3vw;
+  padding-left: 5.5vw;
+}
+
+#welcome {
+  padding: 2vw;
+  padding-left: 10vw;
+}
+
+#mess-bot {
+  height: 40vw;
 }
