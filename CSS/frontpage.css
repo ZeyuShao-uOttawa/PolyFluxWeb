@@ -1,8 +1,8 @@
 body {
   background-image: url(../Assets/back1.png);
   background-repeat: no-repeat;
-  background-size: 100vw;
-  background-position: 0vw -2.5vw;
+  background-size: 96vw;
+  background-position: 5vw -2.5vw;
   overflow-x: hidden;
 }
 
@@ -50,16 +50,33 @@ button {
   cursor: pointer;
 }
 
+img.bot {
+  margin-top: 7vw;
+  width: 86vw;
+}
+
+img.bot-ring {
+  margin-left: 27vw;
+  margin-top: -10vw;
+  width: 32vw;
+}
+
 #logo {
   padding: 3vw;
   padding-left: 5.5vw;
 }
 
 #welcome {
+  position: absolute;
   padding: 2vw;
   padding-left: 10vw;
 }
 
 #mess-bot {
-  height: 40vw;
+  height: 39vw;
+}
+
+#bot {
+  position: relative;
+  margin-left: 26vw;
 }
