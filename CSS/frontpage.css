@@ -1,9 +1,14 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
+  position: relative;
   background-image: url(../Assets/back1.png);
   background-repeat: no-repeat;
   background-size: 96vw;
   background-position: 5vw -2.5vw;
-  overflow-x: hidden;
+
 }
 
 img.logo {
