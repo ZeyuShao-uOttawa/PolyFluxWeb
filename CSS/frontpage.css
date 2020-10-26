@@ -5,11 +5,11 @@ html {
 body {
   position: relative;
   background-attachment: fixed;
-  background-image: url(../Assets/back1.png);
-  background-repeat: no-repeat;
-  background-size: 96vw;
-  background-position: 5vw -2.5vw;
+}
 
+img.backgrd {
+  width: 96vw;
+  text-align: right;
 }
 
 img.logo {
@@ -71,6 +71,18 @@ img.bot-ring {
   width: 29vw;
 }
 
+#backgrd {
+  text-align: right;
+  position: absolute;
+  min-height: 72vw;
+  background-image: url(../Assets/back1.png);
+  background-repeat: no-repeat;
+  background-size: 96vw;
+  background-position: 5vw -2.5vw;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
 #logo {
   padding: 3vw;
   padding-left: 5.5vw;
@@ -80,13 +92,34 @@ img.bot-ring {
   position: absolute;
   padding: 2vw;
   margin-left: 10vw;
-}
-
-#mess-bot {
-  height: 39vw;
+  margin-bottom: 1vw;
 }
 
 #bot {
   position: relative;
   margin-left: 34vw;
+}
+
+#mess-bot {
+  height: 40vw;
+}
+
+#nav {
+  margin-top: 21.05vw;
+  padding: 3vw;
+  padding-left: 5.5vw;
+  position: sticky;
+  width: 100vw;
+  top: 0;
+}
+
+#navA {
+  font-size: 2.5vw;
+  font-family: bebas-neue-by-fontfabric, sans-serif;
+  font-weight: 250;
+  font-style: normal;
+}
+
+#about {
+  min-height: 100vw;
 }
