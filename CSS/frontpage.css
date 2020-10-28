@@ -60,7 +60,7 @@ button.wel {
   border-radius: 3vw;
 }
 
-button.wel span {
+button.wel span.wel {
   cursor: pointer;
   transition: 0.5s;
 }
@@ -81,11 +81,6 @@ img.bot-ring {
   width: 29vw;
 }
 
-img.discord {
-  width: 40px;
-  margin-right: 1vw;
-}
-
 .logo-static {
   display: inline;
   text-align: center;
@@ -93,7 +88,7 @@ img.discord {
 }
 
 a.logo-text-static {
-  color: black;
+  color: white;
   display: inline;
   font-size: 40px;
   font-family: bebas-neue-by-fontfabric, sans-serif;
@@ -101,10 +96,23 @@ a.logo-text-static {
   font-style: normal;
 }
 
+img.discord {
+  width: 40px;
+  margin-right: 1vw;
+}
+
+a.discord {
+  color: white;
+}
+
+a.discord:hover {
+  color: #007bff;
+}
+
 #backgrd {
   text-align: right;
   position: absolute;
-  min-height: 72vw;
+  min-height: 76vw;
   background-image: url(../Assets/back1.png);
   background-repeat: no-repeat;
   background-size: 96vw;
@@ -141,7 +149,7 @@ a.logo-text-static {
 }
 
 #navA {
-  margin: 1vw 0vw;
+  margin: 1vw 2.5vw;
   font-size: 30px;
   font-family: bebas-neue-by-fontfabric, sans-serif;
   font-weight: 400;
