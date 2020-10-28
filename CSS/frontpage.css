@@ -45,7 +45,7 @@ h1.wel {
   font-style: normal;
 }
 
-button {
+button.wel {
   font-size: 2.4vw;
   font-family: bebas-neue-by-fontfabric, sans-serif;
   font-weight: 200;
@@ -58,7 +58,16 @@ button {
   padding-right: 3vw;
   padding-left: 3vw;
   border-radius: 3vw;
+}
+
+button.wel span {
   cursor: pointer;
+  transition: 0.5s;
+}
+
+button.wel:hover span {
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 img.bot {
@@ -70,6 +79,26 @@ img.bot-ring {
   margin-left: 24vw;
   margin-top: -9.5vw;
   width: 29vw;
+}
+
+img.discord {
+  width: 40px;
+  margin-right: 1vw;
+}
+
+.logo-static {
+  display: inline;
+  text-align: center;
+  width: 70px;
+}
+
+a.logo-text-static {
+  color: black;
+  display: inline;
+  font-size: 40px;
+  font-family: bebas-neue-by-fontfabric, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 #backgrd {
@@ -106,16 +135,14 @@ img.bot-ring {
 }
 
 #nav {
-  margin-top: 21.05vw;
-  padding: 3vw;
-  padding-left: 5.5vw;
+  margin-top: 25vw;
   position: sticky;
-  width: 100vw;
   top: 0;
 }
 
 #navA {
-  font-size: 2.5vw;
+  margin: 1vw 0vw;
+  font-size: 30px;
   font-family: bebas-neue-by-fontfabric, sans-serif;
   font-weight: 400;
   font-style: normal;

@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="CSS/frontpage.css">
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
     <link rel="stylesheet" href="https://use.typekit.net/zye8vdv.css">
     <title>PolyFlux</title>
   </head>
@@ -21,7 +21,7 @@
       <div class="col-4" id="welcome">
         <h3 class="wel">Welcome to</h3>
         <h1 class="wel">POLYFLUX</h1>
-        <button type="button" onClick="document.getElementById('about').scrollIntoView();">Enter</button>
+        <button type="button" class="wel" onClick="document.getElementById('nav').scrollIntoView();"><span>Enter</span></button>
       </div>
       <div class="col-8" id="bot">
         <img class="bot" src="Assets/bot.png" alt="bot">
@@ -29,27 +29,22 @@
       </div>
     </div>
 
-
-    <div class="row" id="nav">
-      <div class="col-4">
-        <h5 class="logo-text"><img class="logo" src="Assets/logo.png" alt="logo">&nbsp&nbspPOLYFLUX</h5>
-      </div>
-      <div class="col-8">
-        <nav class="nav nav-pills nav-fill">
-          <a class="nav-item nav-link active" href="#" id="navA">Link</a>
-          <a class="nav-item nav-link" href="#" id="navA">Link</a>
-          <a class="nav-item nav-link" href="#" id="navA">Link</a>
-          <a class="nav-item nav-link" href="#" id="navA">Link</a>
-          <a class="nav-item nav-link" href="#" id="navA">Link</a>
-        </nav>
-      </div>
-    </div>
-
+    <nav class="navbar nav-pills nav-fill flex-column flex-md-row" id="nav">
+      <a class="logo-text-static nav-item nav-link" id="logo-text-static"><img class="logo-static" id="logo-static" src="Assets/logo.png" alt="logo">&nbsp&nbspPOLYFLUX</a>
+      <a style="margin-right:10vw; margin-left:10vw"></a>
+      <a class="nav-item nav-link" href="#" id="navA">Lux</a>
+      <a class="nav-item nav-link" href="#" id="navA">Portfolio</a>
+      <a class="nav-item nav-link" href="#" id="navA">Team</a>
+      <a class="nav-item nav-link" href="#" id="navA">Contact</a>
+      <a class="nav-item nav-link active" href="https://discord.com/channels/719983102125932605/751923186056167538/766760093597040671" id="navA"><img class="discord" src="Assets/discord.png" alt="discord">Join</a>
+      <a style="margin-right:2vw; margin-left:2vw"></a>
+    </nav>
 
     <div class="container-fluid" id="about">
 
     </div>
 
+    <script src="JavaScript/frontpage.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </body>
