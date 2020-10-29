@@ -65,7 +65,7 @@ button.wel span.wel {
   transition: 0.5s;
 }
 
-button.wel:hover span {
+button.wel:hover span.wel {
   padding-left: 2vw;
   padding-right: 2vw;
 }
