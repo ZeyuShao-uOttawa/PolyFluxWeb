@@ -94,6 +94,7 @@ a.logo-text-static {
   font-family: bebas-neue-by-fontfabric, sans-serif;
   font-weight: 300;
   font-style: normal;
+  margin-left: 3.5vw;
 }
 
 img.discord {
@@ -108,6 +109,8 @@ a.discord {
 a.discord:hover {
   color: #007bff;
 }
+
+
 
 #backgrd {
   text-align: right;
@@ -146,10 +149,15 @@ a.discord:hover {
   margin-top: 25vw;
   position: sticky;
   top: 0;
+  z-index: 1;
+}
+
+#nav-right {
+
 }
 
 #navA {
-  margin: 1vw 2.5vw;
+  margin: 0vw 2.5vw;
   font-size: 30px;
   font-family: bebas-neue-by-fontfabric, sans-serif;
   font-weight: 400;
@@ -157,5 +165,29 @@ a.discord:hover {
 }
 
 #about {
-  min-height: 100vw;
+  min-height: 1000px;
+  background-image: url("../Assets/aboutback.png");
+  background-repeat: no-repeat;
+  background-position: 10vw 96px;
+}
+
+#about-card-div1 {
+  position: absolute;
+  max-width: 400px;
+  min-width: 400px;
+  right: 14vw;
+  margin-top: 153.6px;
+}
+
+#about-card-div2 {
+  position: absolute;
+  max-width: 400px;
+  min-width: 400px;
+  right: 14vw;
+  margin-top: 432px;
+}
+
+#about-card {
+  background-color: #DA9EF2;
+  border-radius: 2rem;
 }
