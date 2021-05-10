@@ -84,22 +84,22 @@ img.bot-ring {
 .logo-static {
   display: inline;
   text-align: center;
-  width: 70px;
+  width: 60px;
 }
 
 a.logo-text-static {
   color: white;
   display: inline;
-  font-size: 40px;
+  font-size: 30px;
   font-family: bebas-neue-by-fontfabric, sans-serif;
   font-weight: 300;
   font-style: normal;
-  margin-left: 3.5vw;
+  margin-left: 2rem;
 }
 
 img.discord {
   width: 40px;
-  margin-right: 1vw;
+  margin-right: 1rem;
 }
 
 a.discord {
@@ -157,37 +157,49 @@ a.discord:hover {
 }
 
 #navA {
-  margin: 0vw 2.5vw;
-  font-size: 30px;
+  margin: 0px 40px;
+  font-size: 24px;
   font-family: bebas-neue-by-fontfabric, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-#about {
+#project-card {
+  margin: 2rem 2rem;
+  border: none;
+}
+
+#project {
   min-height: 1000px;
-  background-image: url("../Assets/aboutback.png");
-  background-repeat: no-repeat;
-  background-position: 10vw 96px;
+  margin-top: 10rem;
+  padding: 0rem 0rem;
 }
 
-#about-card-div1 {
-  position: absolute;
-  max-width: 400px;
-  min-width: 400px;
-  right: 14vw;
-  margin-top: 153.6px;
+#project-card-group {
+  margin: -6rem;
 }
 
-#about-card-div2 {
-  position: absolute;
-  max-width: 400px;
-  min-width: 400px;
-  right: 14vw;
-  margin-top: 432px;
+#project-img {
+  max-width: 20rem;
+}
+
+#about-img {
+  border: none;
+}
+
+#about-cards {
+  border: none;
+}
+
+#about-card-body {
+
 }
 
 #about-card {
   background-color: #DA9EF2;
+  margin-bottom: 2rem;
+  margin-left: 10rem;
   border-radius: 2rem;
+  max-width: 30rem;
+  max-height: 15rem;
 }
